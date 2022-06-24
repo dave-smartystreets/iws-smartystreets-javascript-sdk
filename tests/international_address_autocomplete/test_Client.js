@@ -20,6 +20,7 @@ describe("An International Address Autocomplete Client", function () {
 			include_only_locality: "",
 			include_only_postal_code: "",
 			country: "United States",
+			selected: "",
 		};
 
 		client.send(lookup);
@@ -40,6 +41,7 @@ describe("An International Address Autocomplete Client", function () {
 			include_only_locality: "",
 			include_only_postal_code: "",
 			search: search,
+			selected: "",
 		};
 
 		client.send(lookup);
@@ -60,6 +62,7 @@ describe("An International Address Autocomplete Client", function () {
 			include_only_locality: "",
 			include_only_postal_code: "",
 			search: search,
+			selected: "",
 		};
 
 		client.send(lookup);
