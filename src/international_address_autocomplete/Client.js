@@ -18,6 +18,7 @@ class Client {
 			include_only_administrative_area: lookup.include_only_administrative_area,
 			include_only_locality: lookup.include_only_locality,
 			include_only_postal_code: lookup.include_only_postal_code,
+			selected: lookup.selected,
 		};
 
 		return new Promise((resolve, reject) => {

@@ -1,5 +1,13 @@
 class Lookup {
-	constructor(search = "", country = "United States", max_results = undefined, include_only_administrative_area = "", include_only_locality = "", include_only_postal_code = "") {
+	constructor(
+		search = "",
+		country = "United States",
+		max_results = undefined,
+		include_only_administrative_area = "",
+		include_only_locality = "",
+		include_only_postal_code = "",
+		selected = "",
+	) {
 		this.result = [];
 
 		this.search = search;
@@ -8,6 +16,7 @@ class Lookup {
 		this.include_only_administrative_area = include_only_administrative_area;
 		this.include_only_locality = include_only_locality;
 		this.include_only_postal_code = include_only_postal_code;
+		this.selected = selected;
 	}
 }
 

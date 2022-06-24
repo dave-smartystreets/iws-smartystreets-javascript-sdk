@@ -5,6 +5,8 @@ class Suggestion {
 		this.administrativeArea = responseData.administrative_area;
 		this.postalCode = responseData.postal_code;
 		this.countryIso3 = responseData.country_iso3;
+		this.secondary = responseData.secondary;
+		this.entries = responseData.entries;
 	}
 }
 
