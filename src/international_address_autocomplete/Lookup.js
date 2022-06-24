@@ -6,7 +6,7 @@ class Lookup {
 		include_only_administrative_area = "",
 		include_only_locality = "",
 		include_only_postal_code = "",
-		selected = "",
+		unit_search = undefined,
 	) {
 		this.result = [];
 
@@ -16,7 +16,7 @@ class Lookup {
 		this.include_only_administrative_area = include_only_administrative_area;
 		this.include_only_locality = include_only_locality;
 		this.include_only_postal_code = include_only_postal_code;
-		this.selected = selected;
+		this.unit_search = unit_search;
 	}
 }
 

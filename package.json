@@ -1,5 +1,5 @@
 {
- "name": "smartystreets-javascript-sdk",
+ "name": "iws-smartystreets-javascript-sdk",
  "version": "0.0.0",
  "description": "Quick and easy Smarty address validation.",
  "keywords": [
@@ -29,7 +29,7 @@
  "license": "Apache-2.0",
  "repository": {
   "type": "git",
-  "url": "github:smartystreets/smartystreets-javascript-sdk"
+  "url": "github:dave-smartystreets/iws-smartystreets-javascript-sdk"
  },
  "devDependencies": {
   "chai": "^4.2.0",
